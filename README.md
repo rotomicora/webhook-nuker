@@ -45,3 +45,6 @@ python webhook_nuker.py
 ### Uso
 
 **Simplemente introduces una webhook y el mensaje con el que quieres spamear la webhook**
+
+
+https://wtp.franafp.com/posts/webhook-nuker
