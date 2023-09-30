@@ -7,11 +7,11 @@ gui = """
             ╔═══════════════════════════════════════════════╗
             ║                                          . ╔══╣
             ║    ╦ ╦╔═╗╔╗ ╦ ╦╔═╗╔═╗╦╔═                 ╚═╝  ║
-            ║    ║║║║╣ ╠╩╗╠═╣║ ║║ ║╠╩╗  franafp.com         ║
+            ║    ║║║║╣ ╠╩╗╠═╣║ ║║ ║╠╩╗                      ║
             ║    ╚╩╝╚═╝╚═╝╩ ╩╚═╝╚═╝╩ ╩   ╦  ╦  ╗            ║
             ║      ╔╗╔╦ ╦╦╔═╔═╗╦═╗       ╚╗╔╝  ║            ║
             ║      ║║║║ ║╠╩╗║╣ ╠╦╝        ╚╝   ╩            ║
-            ║      ╝╚╝╚═╝╩ ╩╚═╝╩╚═    franafp.com           ║
+            ║      ╝╚╝╚═╝╩ ╩╚═╝╩╚═                          ║
             ╠══╗  .                .                  .     ║
             ╠╗   ╔╩═╗         ╔╩═╦═╩ ·               ╔╩═╗   ║
             ╚╩═══╩═══════════════╩══════════════════════╩═══╝
@@ -21,17 +21,17 @@ gui_animated = """
 ╔═══════════════════════════════════════════════╗
 ║                                          . ╔══╣
 ║    ╦ ╦╔═╗╔╗ ╦ ╦╔═╗╔═╗╦╔═                 ╚═╝  ║
-║    ║║║║╣ ╠╩╗╠═╣║ ║║ ║╠╩╗  wtp.franafp.com     ║
+║    ║║║║╣ ╠╩╗╠═╣║ ║║ ║╠╩╗                      ║
 ║    ╚╩╝╚═╝╚═╝╩ ╩╚═╝╚═╝╩ ╩   ╦  ╦  ╗            ║
 ║      ╔╗╔╦ ╦╦╔═╔═╗╦═╗       ╚╗╔╝  ║            ║
 ║      ║║║║ ║╠╩╗║╣ ╠╦╝        ╚╝   ╩            ║
-║      ╝╚╝╚═╝╩ ╩╚═╝╩╚═    wtp.franafp.com       ║
+║      ╝╚╝╚═╝╩ ╩╚═╝╩╚═                          ║
 ╠══╗  .                .                  .     ║
 ╠╗   ╔╩═╗         ╔╩═╦═╩ ·               ╔╩═╗   ║
 ╚╩═══╩═══════════════╩══════════════════════╩═══╝
            Press enter for continue
 """
-os.system("@mode con cols=150, lines=45 & cls & title Webhook Nuker v1.0 ^| wtp.franafp.com") # Definimos el tamaño de la terminal, limpiamos la terminal y asignamos un titulo a la terminal
+os.system("@mode con cols=150, lines=45 & cls & title Webhook Nuker v1.0") # Definimos el tamaño de la terminal, limpiamos la terminal y asignamos un titulo a la terminal
 Anime.Fade(Center.Center(gui_animated), Colors.rainbow, Colorate.Vertical, interval=0.1, enter=True) # Hacemos una animacion de la "GUI" que definimos anteriormente
 faded_gui = fade.pinkred(gui) # Hacemos un fade a la "GUI" que definimos anteriormente
 
